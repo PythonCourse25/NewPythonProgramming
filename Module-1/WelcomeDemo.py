@@ -9,4 +9,7 @@ fname=input("Please tell me your firsat name")
 gender=input("Please tell me your gender")
 name=input("Tell /me to whom you want to meet?")
 #printing the waiting message to the user
-print("Please take your seat Mr. {}{}. Mr. {} is busy in meeting till then please take a cup of coffee.". format(fname,lname, name))
+if(gender=="male" or gender=="Male" or gender=="MALE"):
+    print("Please take your seat Mr. {}{}. Mr. {} is busy in meeting till then please take a cup of coffee.". format(fname,lname, name))
+else:
+    print("Please take your seat Ms. {}{}. Mr. {} is busy in meeting till then please take a cup of coffee.". format(fname,lname, name))
