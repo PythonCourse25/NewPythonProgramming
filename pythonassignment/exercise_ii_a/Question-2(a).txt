@@ -1,0 +1,58 @@
+A) Given that: a = 4, b = 5, x = 5, y =  4
+Result = 5 * b * b * x - 3 * a * y * y - 8 * b * b * x + 10 * a * y
+
+Step-1: (5 * b) * b * x - 3 * a * y * y - 8 * b * b * x + 10 * a * y
+
+Output: 25 * b * x - 3 * a * y * y - 8 * b * b * x + 10 * a * y
+
+Step-2: (25 * b) * x - 3 * a * y * y - 8 * b * b * x + 10 * a * y
+
+Oytput: 125 * x - 3 * a * y * y - 8 * b * b * x + 10 * a * y
+
+Step-3: (125 * x) - 3 * a * y * y - 8 * b * b * x + 10 * a * y
+
+Output: 625 - 3 * a * y * y - 8 * b * b * x + 10 * a * y
+
+Step-4: 625 - (3 * a) * y * y - 8 * b * b * x + 10 * a * y
+
+Output: 625 - 12 * y * y - 8 * b * b * x + 10 * a * y
+
+Step-5: 625 - (12 * y) * y - 8 * b * b * x + 10 * a * y
+
+Output: 625 - 48 * y - 8 * b * b * x + 10 * a * y
+
+Step-6: 625 - (48 * y) - 8 * b * b * x + 10 * a * y
+
+Output: 625 - 192 - 8 * b * b * x + 10 * a * y
+
+Step-7: 625 - 192 - (8 * b) * b * x + 10 * a * y
+
+Output: 625 - 192 - 40 * b * x + 10 * a * y
+
+Step-8: 625 - 192 - (40 * b) * x + 10 * a * y
+
+Output: 625 - 192 - 200 * x + 10 * a * y
+
+Step-9: 625 - 192 - (200 * x) + 10 * a * y
+
+Output: 625 - 192 - 1000 + 10 * a * y
+
+Step-10: 625 - 192 - 1000 + (10 * a) * y
+
+Output: 625 - 192 - 1000 + 40 * y
+
+Step-11: 625 - 192 - 1000 + (40 * y)
+
+Output: 625 - 192 - 1000 + 160
+
+Step-12: (625 - 192) - 1000 + 160
+
+Output: 433 - 1000 + 160
+
+Step-13: (433 - 1000) + 160
+
+Output: -567 + 160
+
+Step-14: (-567 + 160)
+
+Output: -407

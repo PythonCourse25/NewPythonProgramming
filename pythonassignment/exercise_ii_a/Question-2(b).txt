@@ -1,0 +1,27 @@
+A) Given that: a = 2, y =  3, c = 7
+
+Calc = 4 * a * y / c - a * y / c
+
+Step-1: (4 * a) * y / c - a * y / c
+
+Output: 8 * y / c - a * y / c
+
+Step-2: (8 * y) / c - a * y / c
+
+Output: 24 / c - a * y / c
+
+Step-3: (24 / c) - a * y / c
+
+Output: 3.428 - a * y / c
+
+Step-4: 3.428 - (a * y) / c
+
+Output: 3.428 - 6 / c
+
+Step-5: 3.428 - (6 / c)
+
+Output: 3.428 - 0.857
+
+Step-6: (3.428 - 0.857)
+
+Output: 2.571

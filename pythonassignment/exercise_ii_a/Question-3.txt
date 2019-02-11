@@ -1,0 +1,15 @@
+Given that: r = s = t = 5
+
+avg = r + s + t / 3
+
+Step-1: r + s + (t / 3)
+
+Output: r + s + 1.6666
+
+Step-2: (r + s) + 1.6666
+
+Output: 10 + 1.6666
+
+Step-3: (10 + 1.6666)
+
+Output: 11.6666

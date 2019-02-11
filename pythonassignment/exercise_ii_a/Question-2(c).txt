@@ -1,0 +1,16 @@
+A) Given that: a = 4.4, b=0.0, c = 4.2, y = 3.0
+
+ans = c + a * y * y / b
+
+Step-1: c + (a + y) * y / b
+
+Output: c +  13.2 * y / b
+
+Step-2: c + (13.2 * y) / b
+
+Output: c +  39.6 / y
+
+Step-3: c+ (39.6 / y)
+
+Output: Can't Possible Division by zero error
+
